@@ -1,4 +1,4 @@
-def Fibonacci(n): 
+def fibonacci(n): 
     if n<0: 
         print("Incorrect input") 
 
@@ -7,5 +7,5 @@ def Fibonacci(n):
     elif n==2: 
         return 1
     else: 
-        return Fibonacci(n-1)+Fibonacci(n-2) 
-  print(Fibonacci(9)) 
+        return fibonacci(n-1)+fibonacci(n-2) 
+  print(fibonacci(9)) 
